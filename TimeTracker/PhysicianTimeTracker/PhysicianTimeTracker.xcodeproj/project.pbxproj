@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4A81E97205831D20072DB58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A81E96205831D20072DB58 /* AppDelegate.swift */; };
+		E4A81E99205831D20072DB58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A81E98205831D20072DB58 /* ViewController.swift */; };
+		E4A81E9C205831D20072DB58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A81E9A205831D20072DB58 /* Main.storyboard */; };
+		E4A81E9E205831D20072DB58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4A81E9D205831D20072DB58 /* Assets.xcassets */; };
+		E4A81EA1205831D20072DB58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A81E9F205831D20072DB58 /* LaunchScreen.storyboard */; };
+		E4A81EAC205831D20072DB58 /* PhysicianTimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A81EAB205831D20072DB58 /* PhysicianTimeTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4A81EA8205831D20072DB58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4A81E8B205831D20072DB58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4A81E92205831D20072DB58;
+			remoteInfo = PhysicianTimeTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4A81E93205831D20072DB58 /* PhysicianTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicianTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A81E96205831D20072DB58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4A81E98205831D20072DB58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4A81E9B205831D20072DB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4A81E9D205831D20072DB58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4A81EA0205831D20072DB58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4A81EA2205831D20072DB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A81EA7205831D20072DB58 /* PhysicianTimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicianTimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A81EAB205831D20072DB58 /* PhysicianTimeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianTimeTrackerTests.swift; sourceTree = "<group>"; };
+		E4A81EAD205831D20072DB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4A81E90205831D20072DB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A81EA4205831D20072DB58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4A81E8A205831D20072DB58 = {
+			isa = PBXGroup;
+			children = (
+				E4A81E95205831D20072DB58 /* PhysicianTimeTracker */,
+				E4A81EAA205831D20072DB58 /* PhysicianTimeTrackerTests */,
+				E4A81E94205831D20072DB58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4A81E94205831D20072DB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4A81E93205831D20072DB58 /* PhysicianTimeTracker.app */,
+				E4A81EA7205831D20072DB58 /* PhysicianTimeTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4A81E95205831D20072DB58 /* PhysicianTimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				E4A81E96205831D20072DB58 /* AppDelegate.swift */,
+				E4A81E98205831D20072DB58 /* ViewController.swift */,
+				E4A81E9A205831D20072DB58 /* Main.storyboard */,
+				E4A81E9D205831D20072DB58 /* Assets.xcassets */,
+				E4A81E9F205831D20072DB58 /* LaunchScreen.storyboard */,
+				E4A81EA2205831D20072DB58 /* Info.plist */,
+			);
+			path = PhysicianTimeTracker;
+			sourceTree = "<group>";
+		};
+		E4A81EAA205831D20072DB58 /* PhysicianTimeTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4A81EAB205831D20072DB58 /* PhysicianTimeTrackerTests.swift */,
+				E4A81EAD205831D20072DB58 /* Info.plist */,
+			);
+			path = PhysicianTimeTrackerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4A81E92205831D20072DB58 /* PhysicianTimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A81EB0205831D20072DB58 /* Build configuration list for PBXNativeTarget "PhysicianTimeTracker" */;
+			buildPhases = (
+				E4A81E8F205831D20072DB58 /* Sources */,
+				E4A81E90205831D20072DB58 /* Frameworks */,
+				E4A81E91205831D20072DB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicianTimeTracker;
+			productName = PhysicianTimeTracker;
+			productReference = E4A81E93205831D20072DB58 /* PhysicianTimeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4A81EA6205831D20072DB58 /* PhysicianTimeTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4A81EB3205831D20072DB58 /* Build configuration list for PBXNativeTarget "PhysicianTimeTrackerTests" */;
+			buildPhases = (
+				E4A81EA3205831D20072DB58 /* Sources */,
+				E4A81EA4205831D20072DB58 /* Frameworks */,
+				E4A81EA5205831D20072DB58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4A81EA9205831D20072DB58 /* PBXTargetDependency */,
+			);
+			name = PhysicianTimeTrackerTests;
+			productName = PhysicianTimeTrackerTests;
+			productReference = E4A81EA7205831D20072DB58 /* PhysicianTimeTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4A81E8B205831D20072DB58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ShippertLLC;
+				TargetAttributes = {
+					E4A81E92205831D20072DB58 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E4A81EA6205831D20072DB58 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4A81E92205831D20072DB58;
+					};
+				};
+			};
+			buildConfigurationList = E4A81E8E205831D20072DB58 /* Build configuration list for PBXProject "PhysicianTimeTracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4A81E8A205831D20072DB58;
+			productRefGroup = E4A81E94205831D20072DB58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4A81E92205831D20072DB58 /* PhysicianTimeTracker */,
+				E4A81EA6205831D20072DB58 /* PhysicianTimeTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4A81E91205831D20072DB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A81EA1205831D20072DB58 /* LaunchScreen.storyboard in Resources */,
+				E4A81E9E205831D20072DB58 /* Assets.xcassets in Resources */,
+				E4A81E9C205831D20072DB58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A81EA5205831D20072DB58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4A81E8F205831D20072DB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A81E99205831D20072DB58 /* ViewController.swift in Sources */,
+				E4A81E97205831D20072DB58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A81EA3205831D20072DB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A81EAC205831D20072DB58 /* PhysicianTimeTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4A81EA9205831D20072DB58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4A81E92205831D20072DB58 /* PhysicianTimeTracker */;
+			targetProxy = E4A81EA8205831D20072DB58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4A81E9A205831D20072DB58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4A81E9B205831D20072DB58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4A81E9F205831D20072DB58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4A81EA0205831D20072DB58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4A81EAE205831D20072DB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4A81EAF205831D20072DB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4A81EB1205831D20072DB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhysicianTimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhysicianTimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4A81EB2205831D20072DB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhysicianTimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhysicianTimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E4A81EB4205831D20072DB58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhysicianTimeTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhysicianTimeTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhysicianTimeTracker.app/PhysicianTimeTracker";
+			};
+			name = Debug;
+		};
+		E4A81EB5205831D20072DB58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhysicianTimeTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PhysicianTimeTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhysicianTimeTracker.app/PhysicianTimeTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4A81E8E205831D20072DB58 /* Build configuration list for PBXProject "PhysicianTimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A81EAE205831D20072DB58 /* Debug */,
+				E4A81EAF205831D20072DB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A81EB0205831D20072DB58 /* Build configuration list for PBXNativeTarget "PhysicianTimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A81EB1205831D20072DB58 /* Debug */,
+				E4A81EB2205831D20072DB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4A81EB3205831D20072DB58 /* Build configuration list for PBXNativeTarget "PhysicianTimeTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4A81EB4205831D20072DB58 /* Debug */,
+				E4A81EB5205831D20072DB58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4A81E8B205831D20072DB58 /* Project object */;
+}
