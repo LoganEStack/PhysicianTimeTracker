@@ -31,29 +31,29 @@ class TimerViewController: UIViewController {
     {
         if(isTimerRunning == false)
         {
-            runTimer()
-            sender.setTitle("DONE", for: .normal)
-            sender.backgroundColor = .red
+            runTimer(UIButton)
         }
         else
         {
-            stopTimer()
-            sender.setTitle("START", for: .normal)
-            sender.backgroundColor = .green
+            stopTimer(sender: UIButton)
         }
     }
     
-    func runTimer()
+    func runTimer(_ sender: UIButton)
     {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: (#selector(TimerViewController.updateTimer)), userInfo: nil, repeats: true)
         
         isTimerRunning = true
+        sender.setTitle("DONE", for: .normal)
+        sender.backgroundColor = .red
     }
     
-    func stopTimer()
+    func stopTimer(sender: UIButton)
     {
         timer.invalidate()
         isTimerRunning = false
+        sender.setTitle("START", for: .normal)
+        sender.backgroundColor = .green
     }
     
     @objc func updateTimer()
